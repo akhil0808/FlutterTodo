@@ -21,7 +21,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Hive Todo'),
+        title: const Text('Flutter Todo'),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () => context.push("/${Routes.addScreen}"),
